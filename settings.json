@@ -1,0 +1,10 @@
+// For VS code to configure open file on remote via Cmd+Shift+P
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "gitlens.remotes": [
+        {
+          "domain": "github.xxx.net",
+          "type": "GitHub"
+        }
+      ],
+}
