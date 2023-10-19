@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+   {
+      "key": "shift+up",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "shift+down",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "terminal.focus"
+    },
+    {
+      "key": "f6",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key": "cmd+e",
+      "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+      "key": "cmd+y",
+      "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+      "key": "shift+cmd+t",
+      "command": "-workbench.view.extension.bazel-explorer"
+    },
+    {
+      "key": "cmd+r",
+      "command": "editor.action.showDefinitionPreviewHover"
+    },
+    {
+      "key": "cmd+n",
+      "command": "explorer.newFile"     
+    }
+]
