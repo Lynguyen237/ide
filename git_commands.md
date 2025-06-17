@@ -6,6 +6,7 @@ git checkout master && git fetch upstream && git merge upstream/master && git pu
 // From polyrepo
 git checkout master && git pull --rebase
 ```
+```
 # === git
 alias g='git'
 alias ga='git add'
@@ -48,3 +49,4 @@ alias gsa='git stash apply'
 alias gp='_git_push_auto_branch'     # git push to origin on current branch if no argument specified. Otherwise, git push to specified remote.
 # alias glc='_git_commit_diff'         # show commit diff against upstream/master. Use origin if upstream doesn't exist
 # alias glcc='_git_commit_all'         # show all commits
+```
